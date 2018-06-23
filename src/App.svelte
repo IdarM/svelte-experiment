@@ -15,7 +15,7 @@
         },
 
         components: {
-            StudentList: './views/StudentList.svelte'
+            StudentList: './modules/Students/StudentList.svelte'
         },
 
         methods: {

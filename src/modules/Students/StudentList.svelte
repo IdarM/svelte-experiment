@@ -33,7 +33,7 @@
         },
 
         components: {
-            List: '../components/PersonList.svelte'
+            List: '../../components/PersonList.svelte'
         }
     }
 </script>

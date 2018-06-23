@@ -1,12 +1,6 @@
 # Application
 
-Larger apps will tend to group concerns by modules rather than a folder named
-by file type inside.
-
-However, I think that with this pattern, keeping your services together is no
-different from how you would structure an API.
-
-We have three main application files.
+We have three main application file types and a bootstrap.
 
 - `bootstrap` - configuration, completely hard coupled to the domain.
 - `controller` - mounts apps/views/components. Couples UI events to business logic. Export a class.
