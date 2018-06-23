@@ -1,10 +1,9 @@
-import App from './App.html';
+/**
+ * This is your bootstrap file.
+ * Configuration etc goes here. Keeps that layer away from the application.
+ */
 
-const app = new App({
-	target: document.body,
-	data: {
-		name: ''
-	}
-});
+import ViewController from './AppController';
 
-export default app;
+// GET configuration .then() create controller... perhaps?
+new ViewController();
